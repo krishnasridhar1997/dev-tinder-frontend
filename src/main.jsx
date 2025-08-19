@@ -10,23 +10,22 @@ import store from "./store/store.js";
 import Feed from "./views/feed.jsx";
 import Profile from "./views/profile.jsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Content />,
     children: [
       {
-        path: "login",
+        path: "/",
         element: <Login />,
       },
       {
         path: "feed",
-        element: <Feed/>,
+        element: <Feed />,
       },
-       {
+      {
         path: "profile",
-        element: <Profile/>,
+        element: <Profile />,
       },
     ],
   },

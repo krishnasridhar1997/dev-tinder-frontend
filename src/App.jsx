@@ -1,9 +1,10 @@
-import './App.css'
+import './index.css'
+import Content from "./components/content.jsx";
 
 function App() {
-  return (
-      <h1>Hello worlf</h1>
-  )
+    return (
+        <Content/>
+    )
 }
 
 export default App
